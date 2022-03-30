@@ -6,15 +6,15 @@ Hızlı html oluşturucuya hoş geldiniz modülün amacı projeye başlamadan ö
 
 ## Gelecekte Yapılması Planlananlar
 
-* [ ] 🆕 Daha fazla head şeçenekleri ile metatag düzenlenmesi
-* [ ] 🆕 Responsive uyumluluk (Son kullanıcı olmadığından proje responsive uygun sekilde başlatmadım) 😅
+* [ ] 🆕 Daha fazla head seçenekleri ile metatag düzenlenmesi
+* [ ] 🆕 Responsive uyumluluk (Son kullanıcı için olmadığından proje responsive uygun sekilde başlatmadım) 😅
 * [ ] 🆕 Daha fazla Css ve Js kütüphane arşivi
-* [ ] 🆕 Kütüphane versiyonlarının artırılması ve seçilmesi
+* [ ] 🆕 Kütüphane dosyalarının daha fazla versiyonları artırılması ve seçilmesi
   
   
 ## Kullanım 
 
-- Projeyi hem local hemde kendi sitem üzerinden kullana bilirsiniz site üzerinden kullanmak için [quickHtmlBuilder](https://furkanozturklab.com/project/quickHtmlBuilder).
+- Projeyi hem local hemde kendi sitem üzerinden kullana bilirsiniz site üzerinden kullanmak için [Yakında](https://furkanozturklab.com).
 - Modülü php içeren bir sunucuya yada (Wamp or Xammp) a kurun.
 - Adımları izleyin
 - Projenize isim verin

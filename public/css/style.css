@@ -285,10 +285,6 @@ h6 {
     margin-right: 5px;
 }
 
-.chexkbox-group .check-item label {
-    pointer-events: none;
-}
-
 .chexkbox-group .check-item input[type="checkbox"] {
     height: 12px;
     width: 12px;
@@ -427,11 +423,24 @@ h6 {
 
 .log-panel span {
     display: block;
-    font-size: 12px;
+    font-size: 13px;
     text-align: left;
     font-weight: 500;
+    margin-bottom: 2px;
 }
 
 .log-panel span.dark {
-    color: #212529 !important;
+    color: #212529;
+}
+
+.log-panel b.success {
+    color: #198754;
+}
+
+.log-panel b.danger {
+    color: #dc3545;
+}
+
+.log-panel b.info{
+    color: #0d6efd;
 }
