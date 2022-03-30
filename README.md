@@ -4,6 +4,8 @@
     
 Hızlı html oluşturucuya hoş geldiniz modülün amacı projeye başlamadan önce gerekli klasörleri,kütüphaneleri ve head düzenlemenizi hızlı bir şekilde oluşturarak sizlere proje başlama aşamasındaki kısımları hızlandırmayı sağlamaktadır.
 
+NOT: PROJE SUAN TASARIM AŞAMASI TAMAMLANDI BACKENDKISMI ÜZERİNDE ÇALIŞIYORUM 
+
 ## Gelecekte Yapılması Planlananlar
 
 * [ ] 🆕 Daha fazla head seçenekleri ile metatag düzenlenmesi
