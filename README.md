@@ -9,10 +9,15 @@ NOT: PROJE SUAN TASARIM AŞAMASI TAMAMLANDI BACKENDKISMI ÜZERİNDE ÇALIŞIYORU
 ## Gelecekte Yapılması Planlananlar
 
 * [ ] 🆕 Daha fazla head seçenekleri ile metatag düzenlenmesi
+* [ ] 🆕 Kod optimizasyonları (Performans ve kaynak kullanımı)
+* [ ] 🆕 CDK Ekleme özelliği
 * [ ] 🆕 Responsive uyumluluk (Son kullanıcı için olmadığından proje responsive uygun sekilde başlatmadım) 😅
 * [ ] 🆕 Daha fazla Css ve Js kütüphane arşivi
 * [ ] 🆕 Kütüphane dosyalarının daha fazla versiyonları artırılması ve seçilmesi
   
+## Eksik Kodlamalar
+
+* [ ] Zip oluştururken boş klasörleri almaması için her klasöre temp.txt eklemek zorunda kaldım. "Düzelticem"
   
 ## Kullanım 
 
@@ -40,6 +45,7 @@ Hatalar, sorular ve tartışmalar için lütfen [Github Issues](https://github.c
 Bu proje açık kaynaklı olup öğrenciler ve alana yeni giren kişiler için tasarladım eksiklikleri ve geliştirmemi istediğiniz konularda lütfen benimle iletişime geçin.
 
 [Benimle iletişime geç](mailto:info@furkanozturklab.com?subject=Hello)
+
 
 
 
