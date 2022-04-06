@@ -14,7 +14,14 @@
 <body>
 
     <section class="step-section">
+
+
         <div class="step-card">
+            <div class="buildSuccess">
+
+                <a href="">Download Zip Dosya</a>
+            </div>
+
             <div class="step-content">
                 <div id="step1" class="step-front active">
                     <div class="step-body content-center">
@@ -30,7 +37,7 @@
                     </div>
                     <div class="step-info">
                         <div class="step-github"><a href="https://github.com/ozturk-furkan/htmlQuickBuilder.git" target="_blank"> <i class="fa-brands fa-github"></i> Github</a></div>
-                        <div class="step-version">Versiyon 0.0.1</div>
+                        <div class="step-version">Versiyon 0.1.0</div>
                     </div>
                 </div>
                 <div id="step2" class="step-front">
@@ -52,22 +59,22 @@
                             <div class="item-right col-9">
                                 <div class="chexkbox-group col-12">
                                     <div class="check-item">
-                                        <input type="checkbox" class="form-check-input" id="metaCheckBox" onclick="headcheckbox('metaCheckBox','Metatag')">
+                                        <input type="checkbox" class="form-check-input" id="metaCheckBox" onclick="buildcheckbox('metaCheckBox','head','true','Metatag')">
                                         <label class="form-check-label" for="metaCheckBox">Metatag</label>
                                     </div>
 
                                     <div class="check-item">
-                                        <input type="checkbox" class="form-check-input" id="viewCheckBox" onclick="headcheckbox('viewCheckBox','Viewport')">
+                                        <input type="checkbox" class="form-check-input" id="viewCheckBox" onclick="buildcheckbox('viewCheckBox','head','true','Viewport')">
                                         <label class="form-check-label" for="viewCheckBox">Viewport</label>
                                     </div>
 
                                     <div class="check-item">
-                                        <input type="checkbox" class="form-check-input" id="responsiveCheckBox" onclick="headcheckbox('responsiveCheckBox','Responsive')">
+                                        <input type="checkbox" class="form-check-input" id="responsiveCheckBox" onclick="buildcheckbox('responsiveCheckBox','head','true','Responsive')">
                                         <label class="form-check-label" for="responsiveCheckBox">Responsive</label>
                                     </div>
 
                                     <div class="check-item">
-                                        <input type="checkbox" class="form-check-input" id="charsetCheckBox" onclick="headcheckbox('charsetCheckBox','Charset')">
+                                        <input type="checkbox" class="form-check-input" id="charsetCheckBox" onclick="buildcheckbox('charsetCheckBox','head','true','Charset')">
                                         <label class="form-check-label" for="charsetCheckBox">Charset UTF-8</label>
                                     </div>
                                     <span>Aktif olmasını istediklerinizi işaretleyin</span>
@@ -110,28 +117,26 @@
                             <div class="item-right col-9">
                                 <div class="chexkbox-group col-12">
                                     <div class="check-item">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label" for="exampleCheck1">Bootstrap</label>
+                                        <input type="checkbox" class="form-check-input" id="bootstrapCss" onclick="buildcheckbox('bootstrapCss','cssfr','true','Boostrap Css')">
+                                        <label class="form-check-label" for="bootstrapCss">BootstrapCss</label>
                                     </div>
                                     <div class="check-item">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label" for="exampleCheck1">Animate Css</label>
+                                        <input type="checkbox" class="form-check-input" id="animateCss" onclick="buildcheckbox('animateCss','cssfr','true','Animate Css')">
+                                        <label class="form-check-label" for="animateCss">Animate Css</label>
                                     </div>
                                     <div class="check-item">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label" for="exampleCheck1">Hamburger Css</label>
+                                        <input type="checkbox" class="form-check-input" id="haumburgerCss" onclick="buildcheckbox('haumburgerCss','cssfr','true','Haumberger Css')">
+                                        <label class="form-check-label" for="haumburgerCss">Hamburger Css</label>
                                     </div>
+
                                     <div class="check-item">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label" for="exampleCheck1">Jquery Css</label>
-                                    </div>
-                                    <div class="check-item">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label" for="exampleCheck1">Jquery UI Css</label>
+                                        <input type="checkbox" class="form-check-input" id="jqueryUIcss" onclick="buildcheckbox('jqueryUIcss','cssfr','true','Jquery UI Css')">
+                                        <label class="form-check-label" for="jqueryUIcss">Jquery UI Css</label>
                                     </div>
                                     <span>Eklemek istediğiniz kütüphaneleri seçiniz</span>
                                 </div>
 
+                                <!-- sıradki güncellemede 
                                 <div class="dynamic-inputs">
                                     <div class="manuel-text">Manuel CDK Seklinde ekle :</div>
                                     <div class="dynamic-input">
@@ -141,6 +146,7 @@
                                     <div class="dynamic-adds">
                                     </div>
                                 </div>
+                                -->
                             </div>
                         </div>
                         <div class="items col-12">
@@ -150,21 +156,22 @@
                             <div class="item-right col-9">
                                 <div class="chexkbox-group col-12">
                                     <div class="check-item">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label" for="exampleCheck1">Jquery</label>
+                                        <input type="checkbox" class="form-check-input" id="jqueryJs" onclick="buildcheckbox('jqueryJs','jsfr','true','Jquery Js')">
+                                        <label class="form-check-label" for="jqueryJs">Jquery</label>
                                     </div>
                                     <div class="check-item">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label" for="exampleCheck1">Jquery UI</label>
+                                        <input type="checkbox" class="form-check-input" id="jqueryUIJs" onclick="buildcheckbox('jqueryUIJs','jsfr','true','Jquery UI Js')">
+                                        <label class="form-check-label" for="jqueryUIJs">Jquery UI</label>
                                     </div>
 
                                     <div class="check-item">
-                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                        <label class="form-check-label" for="exampleCheck1">Bootstrap Js</label>
+                                        <input type="checkbox" class="form-check-input" id="bootstrapJs" onclick="buildcheckbox('bootstrapJs','jsfr','true','Bootstrap Js')">
+                                        <label class="form-check-label" for="bootstrapJs">Bootstrap Js</label>
                                     </div>
                                     <span>Eklemek istediğiniz kütüphaneleri seçiniz</span>
                                 </div>
 
+                                <!-- sıradki güncellemede 
                                 <div class="dynamic-inputs">
                                     <div class="manuel-text">Manuel CDK Seklinde ekle :</div>
                                     <div class="dynamic-input">
@@ -172,8 +179,9 @@
                                         <button type="button" name="dynamic_css_add_button">Ekle</button>
                                     </div>
                                     <div class="dynamic-adds">
-                                    </div>
+                                    </div>s
                                 </div>
+                                -->
                             </div>
                         </div>
                         <div class="step-button">
@@ -194,7 +202,7 @@
                         </div>
                         <div class="step-button">
                             <button onclick="backStep(4)"> Geri </button>
-                            <button onclick="buildstart(4)"> Oluştur </button>
+                            <button onclick="builder()"> Oluştur </button>
                         </div>
                     </div>
                     <div class="step-info">
@@ -205,14 +213,14 @@
             </div>
         </div>
 
-        <form id="builder" style="display: none;">
+        <form id="builder" style="display: none;" method="POST" action="builder">
 
 
 
 
         </form>
-
     </section>
+
 
     <script src="public/js/control.js"></script>
 </body>
