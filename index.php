@@ -18,8 +18,18 @@
 
         <div class="step-card">
             <div class="buildSuccess">
+                <div class="step-body content-center">
 
-                <a href="">Download Zip Dosya</a>
+                    <h1 class="step-header">Proje Hazır</h1>
+                    <p class="step-text">
+                        Aşağıdaki buttonunu kullanarak oluşturduğunuz projenizi indire bilirsiniz.
+                    </p>
+                    <a href="">İndir Zip</a>
+
+                </div>
+
+
+                
             </div>
 
             <div class="step-content">

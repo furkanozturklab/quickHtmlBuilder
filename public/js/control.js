@@ -84,17 +84,9 @@ function builder() {
             $('.buildSuccess').fadeIn();
         },
         success: function (data) {
-
-            $('buildSuccess a').attr("href", data)
-
+            $('.buildSuccess a').attr("href", data)
         },
         complete: function () {
-
         },
     });
-
-
-
-
-    // $("#builder").submit();
 }

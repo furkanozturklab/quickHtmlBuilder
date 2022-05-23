@@ -451,7 +451,53 @@ h6 {
     position: absolute;
     z-index: 99;
     display: none;
-    background-color: #0d6efd;
+    background-color: rgba(14, 15, 16, 1);
     width: 100%;
     height: 100%;
+}
+
+.buildSuccess .step-header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #fafafc;
+    margin-bottom: 20px;
+}
+
+.buildSuccess .step-body {
+    width: 100%;
+    height: calc(100% - 32px);
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+}
+
+.buildSuccess .step-text {
+    text-align: center;
+    margin: 20px 0px;
+    padding: 0px 10%;
+    color: #a4a7b1;
+}
+
+.buildSuccess a {
+    height: 36px;
+    text-align: center;
+    font-size: 12px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: all .3s;
+    font-weight: 600;
+    padding: 0 40px;
+    line-height: 36px;
+    color: #15151d;
+    background-color: #fff;
+}
+
+.buildSuccess a:hover {
+    color: #fafafc !important;
+    cursor: pointer;
+    background-color: rgba(226, 24, 57, 0.8);
 }

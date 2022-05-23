@@ -286,6 +286,8 @@ foreach ($files as $name => $file) {
 
 $zip->close();
 
+echo $_POST['projectName'] . '.zip';
+
 /*
 if (file_exists($_POST['projectName'] . '.zip')) {
     header('Pragma: public');
