@@ -33,17 +33,15 @@ Hızlı html oluşturucuya hoş geldiniz modülün amacı projeye başlamadan ö
 - Oluştur tıkalayın ve bekleyin projeniz rar sekilinde indirilecektir.
   
 
-
 ## Hatalar ve Geri Bildirim
 
-Hatalar, sorular ve tartışmalar için lütfen [Github Issues](https://github.com/ozturk-furkan/quickHtmlBuilder/issues).
-
+Hatalar, sorular ve tartışmalar için [Github Issues](https://github.com/ozturk-furkan/quickHtmlBuilder/issues).
 
 ## Son Olarak
 
-Bu proje açık kaynaklı olup öğrenciler ve alana yeni giren kişiler için tasarladım eksiklikleri ve geliştirmemi istediğiniz konularda lütfen benimle iletişime geçin.
+Bu proje açık kaynaklı olup öğrenciler ve alana yeni giren kişiler için tasarladım eksiklikleri ve geliştirmemi istediğiniz konularda
 
-[Benimle iletişime geç](mailto:info@furkanozturklab.com?subject=Merhaba)
+[Benimle iletişime geçin](mailto:info@furkanozturklab.com?subject=Merhaba)
 
 
 
